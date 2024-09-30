@@ -1,0 +1,21 @@
+{
+  "name": "expense_tracker_cli",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": "20"
+  },
+  "description": "Expense Tracker is a simple CLI used to manage your finances.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuriy Kvartsianiy",
+  "license": "ISC",
+  "bin": {
+    "expense-tracker": "index.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
